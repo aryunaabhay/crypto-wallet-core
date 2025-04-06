@@ -3,7 +3,7 @@ from .db import db
 
 def create_app():
     app = Flask(__name__)
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:S1mpl3Bus1n3ss!@database:5432/crypto_wallet'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Cryt0W4ll3t!@database:5432/crypto_wallet'
     
     db.init_app(app)
     
